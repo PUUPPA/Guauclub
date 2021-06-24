@@ -13,8 +13,11 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+    
+ font-family: 'Raleway', sans-serif;
+font-size: 22px;    
+     color: #706f6f;
+    
 }
 
 a {
@@ -27,7 +30,23 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-size: 48px;
+    font-family: 'Coiny', cursive;
+    color: #E42883;
+}
+
+.pasos .box h2 {
+    color: #312b6d;
+}
+
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #706f6f;
+}
+    h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
 
@@ -45,12 +64,11 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+font-size: 32px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
-  text-transform: uppercase;
+ 
 }
 
 .section-header p {
@@ -424,7 +442,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  
   background-size: cover;
 }
 
@@ -432,7 +450,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #E42883;
 }
 
 .hero h2 {
@@ -637,7 +655,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features .feature-box {
-  padding: 24px 20px;
+  padding: 24px 5px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
@@ -914,6 +932,11 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
+section#pricing {
+color: #312B6D; 
+ }
+        
 .pricing .box {
   padding: 40px 20px;
   background: #fff;
@@ -937,7 +960,7 @@ section {
 }
 
 .pricing .price {
-  font-size: 36px;
+  font-size: 45px;
   color: #444444;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -2189,6 +2212,46 @@ section {
   font-size: 14px;
 }
 
+.certificado img{
+    width: 135px;
+    margin-left: calc(50% - 80px);
+}
+
+.contact-form input{
+  border-radius: 20px!important;
+}
+
+.contact-form textarea{
+  border-radius: 20px!important;
+}
+
+.contact-form .send-button{
+    width: 100%;
+    border-radius: 25px!important;
+}
+
+.fondo-violeta{
+    background: url(../img/seccion2.png);
+    background-size: cover;
+    min-height: 570px; /*TIENE QUE SER EL MISMO QUE EL DE .todo*/
+    width: 100%!important;
+    margin: 0!important;
+    max-width: none!important;
+}
+
+.fondo-violeta .todo{
+  min-height: 570px;/*TIENE QUE SER EL MISMO QUE EL DE .fondo-violeta*/
+}
+
+.submit-button{
+  background: #4154f1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    width: 100%;
+    border-radius: 25px!important;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
