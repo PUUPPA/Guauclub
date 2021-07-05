@@ -31,19 +31,18 @@ a:hover {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 36px;
     font-family: 'Coiny', cursive;
-    color: #E42883;
+    color: #312783;
 }
 
 .pasos .box h2 {
     color: #312b6d;
 }
 
-
-}
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     color: #706f6f;
 }
     h3, h4, h5, h6 {
@@ -87,6 +86,13 @@ font-size: 32px;
   }
 }
 
+header.fixed-top nav {
+    color: #4154f1!important;
+}
+
+header nav {
+    color: white;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -342,6 +348,19 @@ font-size: 32px;
   visibility: visible;
 }
 
+.nav-link {
+    color: white!important;
+}
+
+.header-scrolled .nav-link {
+    color: #0a58ca!important;
+}
+
+.btn-buy{
+    background: #4154f1!important;
+    color: #fff!important;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -350,6 +369,22 @@ font-size: 32px;
     left: -100%;
   }
 }
+.foto-contacto{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+section.contactofix {
+    padding-bottom: 0!important;
+}
+@media only screen and (max-width: 980px) {
+  .foto-contacto{
+    position: relative;
+      width: 100%;
+    }
+}
+
+
 
 /**
 * Mobile Navigation 
@@ -459,19 +494,20 @@ font-size: 32px;
 .hero {
   width: 100%;
   height: 100vh;
-  
-  background-size: cover;
+     background:url('../img/fondohero.png')!important;
+
+  background-size: cover!important;
 }
 
 .hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #E42883;
+  color:white;
 }
 
 .hero h2 {
-  color: #444444;
+  color: white;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -2291,14 +2327,14 @@ h3#mensualidad {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #29235C;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: #29235C;
   border-top: 1px solid #e1ecff;
 }
 
@@ -2347,7 +2383,7 @@ h3#mensualidad {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2406,7 +2442,7 @@ h3#mensualidad {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: white;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2465,4 +2501,12 @@ h3#mensualidad {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.footer .footer-top .social-links a {
+    color: white!important;
+}
+
+footer{
+    color:white!important
 }
