@@ -138,6 +138,23 @@ font-size: 32px;
   content: "/";
 }
 
+
+.marcas-imagen{
+  width: 75%; margin-left: 12.5%;
+}
+
+@media (max-width: 600px) {
+  .fondo-violeta{
+    margin-top: 60px!important;
+  }
+
+  .marcas-imagen{
+    width: 98%;
+    margin-left: 0.5%;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1688,6 +1705,24 @@ color: #312B6D;
   background: #5969f3;
 }
 
+
+h3#mensualidad {
+    font-weight: 800;
+}
+
+.garritas img{
+  width: 25px;
+}
+
+
+.laseccionprimeracompra{
+  max-height: 470px;
+}
+@media (max-width: 900px) {
+.laseccionprimeracompra{
+  max-height: 725px;
+}
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -2235,7 +2270,7 @@ color: #312B6D;
     background-size: cover;
     min-height: 570px; /*TIENE QUE SER EL MISMO QUE EL DE .todo*/
     width: 100%!important;
-    margin: 0!important;
+    margin: 0;
     max-width: none!important;
 }
 
